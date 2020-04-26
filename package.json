@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-ewelink-pro",
+  "version": "0.1.1",
+  "author": "krasnovvy",
+  "contributors": [
+    "krasnovvy@gmail.com"
+  ],
+  "description": "Homebrige plugin to control Sonoff devices in Apple HomeKit",
+  "license": "MIT",
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "sonoff",
+    "ewelink"
+  ],
+  "engines": {
+    "node": ">=6.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VictorKrasnov/homebridge-ewelink-pro"
+  },
+  "dependencies": {
+    "nonce": "^1.0.4",
+    "request-json": "^0.6.2",
+    "ws": "^3.3.2"
+  }
+}
